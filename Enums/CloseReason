@@ -1,0 +1,18 @@
+int sub_104819d98(int arg0) {
+    var_20 = 0x0;
+    r0 = sub_1015fac44(arg0, "CloseReason", &var_20);
+    *r0 = 0x1068eb648;
+    sub_1015faab4(0x106e86c60, "Unknown", 0x0, 0x0, 0x0, arg0);
+    sub_1015faab4(0x106e86c98, "RobloxMaintenance", 0x0, 0x0, 0x1, arg0);
+    sub_1015faab4(0x106e86cd0, "DeveloperShutdown", 0x0, 0x0, 0x2, arg0);
+    sub_1015faab4(0x106e86d08, "DeveloperUpdate", 0x0, 0x0, 0x3, arg0);
+    sub_1015faab4(0x106e86d40, "ServerEmpty", 0x0, 0x0, 0x4, arg0);
+    sub_1015faab4(0x106e86d78, "OutOfMemory", 0x0, 0x0, 0x5, arg0);
+    sub_1015faab4(0x106e86db0, "Moderation", 0x0, 0x0, 0x6, arg0);
+    arg0[0x8] = 0x106e86c60;
+    arg0[0x9] = 0x7;
+    arg0[0xa] = 0x105e76e44;
+    arg0[0xb] = 0x7;
+    r0 = arg0;
+    return r0;
+}
