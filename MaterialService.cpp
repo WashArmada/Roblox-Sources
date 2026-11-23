@@ -1,0 +1,370 @@
+function EntryPoint_4618 {
+    r31 = r31 - 0x160;
+    arg_140 = r20;
+    arg_148 = r19;
+    arg_150 = r29;
+    arg_158 = r30;
+    decomp_var_18 = **___stack_chk_guard;
+    arg_50 = q0;
+    arg_10 = q0;
+    r0 = sub_100d27eb4(0x106c17530, 0x103cfa270, 0x0, "GetBaseMaterialOverride", "material", 0x0, &arg_50, &arg_10);
+    r0 = arg_28;
+    if (r0 != 0x0) {
+            loc_102c74a48();
+    }
+    r0 = arg_10;
+    if (r0 != 0x0) {
+            loc_102c74a48();
+    }
+    __cxa_atexit(sub_100d1b4a0, 0x106c17530, __mh_execute_header);
+    arg_50 = q0;
+    arg_10 = q0;
+    r0 = sub_100d280f8(0x106c175f0, 0x103cfa554, 0x0, "GetMaterialOverrideChanged", "material", 0x8, &arg_50, &arg_10);
+    r0 = arg_28;
+    if (r0 != 0x0) {
+            loc_102c74a48();
+    }
+    r0 = arg_10;
+    if (r0 != 0x0) {
+            loc_102c74a48();
+    }
+    __cxa_atexit(sub_100d1b4dc, 0x106c175f0, __mh_execute_header);
+    arg_50 = q0;
+    arg_10 = q0;
+    r0 = sub_100d2833c(0x106c176b0, 0x103cfa3d0, 0x0, "GetMaterialVariant", "material", "name", 0x0, &arg_50, &arg_10);
+    r0 = arg_28;
+    if (r0 != 0x0) {
+            loc_102c74a48();
+    }
+    r0 = arg_10;
+    if (r0 != 0x0) {
+            loc_102c74a48();
+    }
+    __cxa_atexit(sub_100d1b518, 0x106c176b0, __mh_execute_header);
+    arg_50 = q0;
+    arg_10 = q0;
+    r0 = sub_100d28690(0x106c17778, 0x103cfcb28, 0x0, "GetOverrideStatus", "material", 0x8, &arg_50, &arg_10);
+    r0 = arg_28;
+    if (r0 != 0x0) {
+            loc_102c74a48();
+    }
+    r0 = arg_10;
+    if (r0 != 0x0) {
+            loc_102c74a48();
+    }
+    __cxa_atexit(sub_100d1b564, 0x106c17778, __mh_execute_header);
+    arg_50 = q0;
+    arg_10 = q0;
+    r0 = sub_100d288d4(0x106c17838, 0x103cfa144, 0x0, "SetBaseMaterialOverride", "material", "name", 0x0, &arg_50, &arg_10);
+    r0 = arg_28;
+    if (r0 != 0x0) {
+            loc_102c74a48();
+    }
+    r0 = arg_10;
+    if (r0 != 0x0) {
+            loc_102c74a48();
+    }
+    __cxa_atexit(sub_100d1b5a0, 0x106c17838, __mh_execute_header);
+    arg_50 = q0;
+    arg_10 = q0;
+    r0 = sub_100d288d4(0x106c17900, 0x103cfcb58, 0x0, "SetCurrentMaterial", "baseMaterial", "materialVariant", 0x8, &arg_50, &arg_10);
+    r0 = arg_28;
+    if (r0 != 0x0) {
+            loc_102c74a48();
+    }
+    r0 = arg_10;
+    if (r0 != 0x0) {
+            loc_102c74a48();
+    }
+    __cxa_atexit(sub_100d1b5a0, 0x106c17900, __mh_execute_header);
+    arg_50 = q0;
+    arg_10 = q0;
+    r0 = sub_100d28c20(0x106c179c8, 0x103cfcb78, 0x0, "ToggleMaterialFillToolEnabled", 0x8, &arg_50, &arg_10);
+    r0 = arg_28;
+    if (r0 != 0x0) {
+            loc_102c74a48();
+    }
+    r0 = arg_10;
+    if (r0 != 0x0) {
+            loc_102c74a48();
+    }
+    __cxa_atexit(sub_100d1b5ec, 0x106c179c8, __mh_execute_header);
+    arg_50 = q0;
+    arg_10 = q0;
+    r0 = sub_100d28d10(0x106c17a80, 0x103cfcc6c, 0x0, "GetIsMaterialActionAsToolEnabled", 0x8, &arg_50, &arg_10);
+    r0 = arg_28;
+    if (r0 != 0x0) {
+            loc_102c74a48();
+    }
+    r19 = &arg_50;
+    r0 = arg_10;
+    if (r0 != 0x0) {
+            loc_102c74a48();
+    }
+    __cxa_atexit(sub_100d1b5f0, 0x106c17a80, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    *(r19 + 0xd7) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x4);
+    sub_100d28e10(0x106c17b38, "Use2022Materials", "Material Pack", sub_100d1b5f4, 0x0, sub_100d1b5fc, 0x0, &arg_10, 0x8);
+    __cxa_atexit(sub_100d1b67c, 0x106c17b38, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d28e10(0x106c17c00, "Use2022MaterialsXml", "Material Pack", sub_100d1b6f0, 0x0, sub_100d1b6f8, 0x0, &arg_10, 0x0);
+    __cxa_atexit(sub_100d1b67c, 0x106c17c00, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c17cc8, "AsphaltName", "Material Overrides", sub_100d1b738, 0x0, sub_100d1b75c, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c17cc8, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c17d90, "BasaltName", "Material Overrides", sub_100d1ba78, 0x0, sub_100d1ba9c, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c17d90, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c17e58, "BrickName", "Material Overrides", sub_100d1bd44, 0x0, sub_100d1bd68, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c17e58, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c17f20, "CobblestoneName", "Material Overrides", sub_100d1c010, 0x0, sub_100d1c034, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c17f20, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c17fe8, "ConcreteName", "Material Overrides", sub_100d1c2dc, 0x0, sub_100d1c300, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c17fe8, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c180b0, "CorrodedMetalName", "Material Overrides", sub_100d1c5a8, 0x0, sub_100d1c5cc, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c180b0, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c18178, "CrackedLavaName", "Material Overrides", sub_100d1c874, 0x0, sub_100d1c898, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c18178, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c18240, "DiamondPlateName", "Material Overrides", sub_100d1cb40, 0x0, sub_100d1cb64, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c18240, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c18308, "FabricName", "Material Overrides", sub_100d1ce0c, 0x0, sub_100d1ce30, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c18308, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c183d0, "FoilName", "Material Overrides", sub_100d1d0d8, 0x0, sub_100d1d0fc, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c183d0, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c18498, "GlacierName", "Material Overrides", sub_100d1d3a4, 0x0, sub_100d1d3c8, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c18498, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c18560, "GraniteName", "Material Overrides", sub_100d1d670, 0x0, sub_100d1d694, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c18560, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c18628, "GrassName", "Material Overrides", sub_100d1d93c, 0x0, sub_100d1d960, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c18628, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c186f0, "GroundName", "Material Overrides", sub_100d1dc08, 0x0, sub_100d1dc2c, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c186f0, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c187b8, "IceName", "Material Overrides", sub_100d1ded4, 0x0, sub_100d1def8, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c187b8, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c18880, "LeafyGrassName", "Material Overrides", sub_100d1e1a0, 0x0, sub_100d1e1c4, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c18880, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c18948, "LimestoneName", "Material Overrides", sub_100d1e46c, 0x0, sub_100d1e490, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c18948, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c18a10, "MarbleName", "Material Overrides", sub_100d1e738, 0x0, sub_100d1e75c, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c18a10, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c18ad8, "MetalName", "Material Overrides", sub_100d1ea04, 0x0, sub_100d1ea28, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c18ad8, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c18ba0, "MudName", "Material Overrides", sub_100d1ecd0, 0x0, sub_100d1ecf4, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c18ba0, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c18c68, "PavementName", "Material Overrides", sub_100d1ef9c, 0x0, sub_100d1efc0, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c18c68, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c18d30, "PebbleName", "Material Overrides", sub_100d1f268, 0x0, sub_100d1f28c, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c18d30, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c18df8, "PlasticName", "Material Overrides", sub_100d1f534, 0x0, sub_100d1f558, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c18df8, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c18ec0, "RockName", "Material Overrides", sub_100d1f800, 0x0, sub_100d1f824, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c18ec0, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c18f88, "SaltName", "Material Overrides", sub_100d1facc, 0x0, sub_100d1faf0, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c18f88, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c19050, "SandName", "Material Overrides", sub_100d1fd98, 0x0, sub_100d1fdbc, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c19050, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c19118, "SandstoneName", "Material Overrides", sub_100d20064, 0x0, sub_100d20088, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c19118, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c191e0, "SlateName", "Material Overrides", sub_100d20330, 0x0, sub_100d20354, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c191e0, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c192a8, "SmoothPlasticName", "Material Overrides", sub_100d205fc, 0x0, sub_100d20620, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c192a8, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c19370, "SnowName", "Material Overrides", sub_100d208c8, 0x0, sub_100d208ec, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c19370, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c19438, "WoodName", "Material Overrides", sub_100d20b94, 0x0, sub_100d20bb8, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c19438, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c19500, "WoodPlanksName", "Material Overrides", sub_100d20e60, 0x0, sub_100d20e84, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c19500, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c195c8, "CardboardName", "Material Overrides", sub_100d2112c, 0x0, sub_100d21150, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c195c8, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c19690, "CarpetName", "Material Overrides", sub_100d213f8, 0x0, sub_100d2141c, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c19690, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c19758, "CeramicTilesName", "Material Overrides", sub_100d216c4, 0x0, sub_100d216e8, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c19758, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c19820, "ClayRoofTilesName", "Material Overrides", sub_100d21990, 0x0, sub_100d219b4, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c19820, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c198e8, "LeatherName", "Material Overrides", sub_100d21c5c, 0x0, sub_100d21c80, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c198e8, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c199b0, "PlasterName", "Material Overrides", sub_100d21f28, 0x0, sub_100d21f4c, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c199b0, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c19a78, "RoofShinglesName", "Material Overrides", sub_100d221f4, 0x0, sub_100d22218, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c19a78, __mh_execute_header);
+    arg_50 = 0x0;
+    *(r19 + 0x67) = 0x0;
+    *(r19 + 0x9f) = 0x0;
+    loc_10004e4b0(&arg_10, &arg_50, 0x3);
+    sub_100d290a8(0x106c19b40, "RubberName", "Material Overrides", sub_100d224c0, 0x0, sub_100d224e4, 0x0, &arg_10, 0x10);
+    __cxa_atexit(sub_100d1ba04, 0x106c19b40, __mh_execute_header);
+    arg_50 = q0;
+    sub_100d29430(0x106a1cf70, 0x470, "MaterialFillToolEnabledChanged", "shouldEnable", 0x8, &arg_50);
+    __cxa_atexit(sub_100d2278c, 0x106a1cf70, __mh_execute_header);
+    arg_50 = q0;
+    sub_100d29c0c(0x106a1d008, 0x490, "OverrideStatusChanged", "material", 0x8, &arg_50);
+    __cxa_atexit(sub_100d227e0, 0x106a1d008, __mh_execute_header);
+    loc_102c5c3dc(0x106c19c08, 0x6, sub_100d26f98);
+    loc_1015f97f8(0x106c19e68, sub_100d27140);
+    if (**___stack_chk_guard != decomp_var_18) {
+            __stack_chk_fail();
+    }
+    return;
+}
